@@ -1,0 +1,38 @@
+{
+  "data": {
+    "user_name": "Andresl940",
+    "id": 1,
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJBbmRyZXNsOTQwIiwiaWF0IjoxNjg1NjI4MDE3LCJleHAiOjE2ODU2MzE2MTd9.rX5tsKp50eIXmzOEPYQh0FBMtdiX6ren2xaPoEEJi6Y",
+    "expiredAt": 1685628077226
+  },
+  "status": 201,
+  "statusText": "Created",
+  "headers": {
+    "content-length": "238",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": ["xhr", "http"],
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "method": "post",
+    "url": "http://localhost:8001/login",
+    "data": "{\"username\":\"Andresl940\",\"password\":\"123123\"}"
+  },
+  "request": {}
+}

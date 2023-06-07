@@ -1,0 +1,53 @@
+{
+  "data": {
+    "user_name": "Andresl940",
+    "email": "andresl940@hotmail.com",
+    "password": "$2b$10$q8ioq17KjTVvAHPppHkcSuHVVSZqAm.h.ASQwntgaTscTS/3B2wTS",
+    "auth_strategy": null,
+    "id": 2,
+    "created_at": "2023-05-31T20:11:46.000Z"
+  },
+  "status": 201,
+  "statusText": "Created",
+  "headers": {
+    "content-length": "201",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": ["xhr", "http"],
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "method": "post",
+    "url": "http://localhost:8001/users",
+    "data": "{\"user_name\":\"Andresl940\",\"password\":\"123321\",\"email\":\"andresl940@hotmail.com\"}"
+  },
+  "request": {}
+}
+
+{
+    "message": "Success, now you can login",
+    "status": 200,
+    "data": {
+        "user_name": "Andre4sl940",
+        "email": "andr44esl940@hotmail.com",
+        "password": "$2b$10$wQ68nP0Bugn.x6jvrI.38e6VLtqXgM0Xm0CnjxI/vi6Hn7rctfTjK",
+        "auth_strategy": null,
+        "id": 3,
+        "created_at": "2023-05-31T21:37:26.000Z"
+    }
+}
