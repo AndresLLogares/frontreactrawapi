@@ -1,3 +1,3 @@
-# Frontend React using RAW API
+# Front-end React using RAW API
 
 A little front-end I made just to try out new things
